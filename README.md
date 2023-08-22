@@ -6,6 +6,8 @@
 AI 创作的风格可以在配置文件中自定义。
 
 以下是示例：
+https://github.com/eventXhorizon/dairy-nft/blob/main/frontend/static/cache_img/ocean_1.png
+https://github.com/eventXhorizon/dairy-nft/blob/main/frontend/static/cache_img/ocean_2.png
 
 # Quickstart
 
