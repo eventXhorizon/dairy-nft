@@ -6,7 +6,9 @@
 AI 创作的风格可以在配置文件中自定义。
 
 以下是示例：
+
 ![ocean_1](https://github.com/eventXhorizon/dairy-nft/assets/127678969/55f66592-1354-4df2-86d2-c76e45903835)
+
 
 ![ocean_2](https://github.com/eventXhorizon/dairy-nft/assets/127678969/2509ed2e-8b68-40ea-b898-87d46759d5b4)
 
