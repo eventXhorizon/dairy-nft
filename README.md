@@ -11,6 +11,10 @@ AI 创作的风格可以在配置文件中自定义。
 
 以下是示例：
 
+![WeChat3cf403353f392af622b055d04ffdacd8](https://github.com/eventXhorizon/dairy-nft/assets/127678969/a4fd5f6d-2c82-4c31-b16b-6c40f7f42915)
+
+
+
 ![ocean_1](https://github.com/eventXhorizon/dairy-nft/assets/127678969/55f66592-1354-4df2-86d2-c76e45903835)
 
 
