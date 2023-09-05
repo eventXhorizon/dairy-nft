@@ -1,0 +1,26 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "description": "The smart contract stores messages from users. Messages can be `premium` if the user attaches sufficient money (0.1 $NEAR).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/node": "^18.16.2",
+    "jest": "^29.6.4",
+    "near-workspaces": "^3.3.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  }
+}

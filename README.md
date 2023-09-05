@@ -24,13 +24,19 @@ AI 创作的风格可以在配置文件中自定义。
 npm install
 ```
 
-### 2. Deploy the Contract
+### 2. Test the Contract
+Unit Test and integration test for smart contract
+```bash
+npm run dev
+```
+
+### 3. Deploy the Contract
 Build the contract and deploy it in a testnet account
 ```bash
 npm run deploy
 ```
 
-### 3. Start the Frontend
+### 4. Start the Frontend
 Start the web application to interact with your smart contract 
 ```bash
 npm run start
