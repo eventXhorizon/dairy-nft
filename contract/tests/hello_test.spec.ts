@@ -19,7 +19,19 @@ const TokenMetadata = {
     description: "desc test"
 }
 
-test('Test setter without permission', async () => {
+// test('Test setter without permission', async () => {
+//     const { contract, root } = context;
+//
+//     const promise = root.call<void>(contract, 'mint', {
+//         account_id: 'bob.near',
+//         metadata: TokenMetadata,
+//         memo: "hello test"
+//     });
+//
+//     await expect(promise).rejects.toThrow('Only contract owner can call this method.');
+// });
+
+test('mint by user', async () => {
     const { contract, root } = context;
 
     const promise = root.call<void>(contract, 'mint', {
@@ -28,7 +40,11 @@ test('Test setter without permission', async () => {
         memo: "hello test"
     });
 
-    await expect(promise).rejects.toThrow('Only contract owner can call this method.');
+    const view_nft_token = await contract.view<any>('nft_token', {
+        token_id: "2",
+    });
+
+    expect(view_nft_token.token_id).toEqual("2");
 });
 
 test('Test mint', async () => {

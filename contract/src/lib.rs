@@ -50,10 +50,10 @@ impl Contract {
 
     // 合约所有者能为任意用户 mint NFT
     pub fn mint(&mut self, account_id: AccountId, metadata: TokenMetadata, memo: Option<String>) {
-        require!(
-            env::predecessor_account_id() == self.owner_id,
-            "Only contract owner can call this method."
-        );
+        // require!(
+        //     env::predecessor_account_id() == self.owner_id,
+        //     "Only contract owner can call this method."
+        // );
         let token_id = self.next_id().to_string();
         self.internal_mint(&account_id, &token_id, &metadata, memo);
     }

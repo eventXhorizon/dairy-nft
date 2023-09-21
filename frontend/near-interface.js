@@ -9,7 +9,7 @@ export class DiaryNFT {
     this.wallet = walletToUse
   }
 
-  async mintNFT(media, description) {
+  async mintNFT(currentAccountId, media, description) {
     const TokenMetadata = {
       media,
       description
@@ -19,7 +19,8 @@ export class DiaryNFT {
       contractId: this.contractId,
       method: "mint",
       args: {
-        account_id: this.contractId,
+        // account_id: this.contractId,
+        account_id: currentAccountId,
         metadata: TokenMetadata
       }
     });

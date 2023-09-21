@@ -5,6 +5,7 @@
   "scripts": {
     "start": " ./start.sh",
     "build": "parcel build index.html --public-url ./",
+    "pre-gh-deploy": "yarn run build",
     "gh-deploy": "gh-pages -d dist"
   },
   "devDependencies": {
