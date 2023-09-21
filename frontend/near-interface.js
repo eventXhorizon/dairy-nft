@@ -9,7 +9,8 @@ export class DiaryNFT {
     this.wallet = walletToUse
   }
 
-  async mintNFT(currentAccountId, media, description) {
+  async mintNFT(media, description, currentAccountId) {
+    console.log("currentAccountId: ", currentAccountId);
     const TokenMetadata = {
       media,
       description

@@ -130,7 +130,8 @@ function Home({diaryNFT, currentAccountId}) {
     }
 
     function buildNFT(media, description) {
-        diaryNFT.mintNFT(currentAccountId, media, description)
+        // console.log("Home currentAccountId: ", currentAccountId);
+        diaryNFT.mintNFT(media, description, currentAccountId)
     }
 
     return (
